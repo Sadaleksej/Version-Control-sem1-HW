@@ -28,14 +28,14 @@ public static void bubbleSort(int[] arr) {
                 }
 
                 Date dd34 = new Date();
-        SimpleDateFormat format1;
-        format1 = new SimpleDateFormat(
+        SimpleDateFormat format2;
+        format2 = new SimpleDateFormat(
                 "yyyy-MM-dd hh:mm");
 
 
                 
 
-                fileWriter.write(format1.format(d) + " " + arrayToString(arr) + "\n");
+                fileWriter.write(format2.format(d) + " " + arrayToString(arr) + "\n");
             }
 
             fileWriter.close();
