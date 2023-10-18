@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.FileReader;
-import java.io.BufferedReader;
+
 import java.io.IOException;
 
 import java.text.SimpleDateFormat;
@@ -9,7 +9,7 @@ import java.util.*;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 8, 1, 2};
+        int[] arr = {5, 8, 3, 8, 1, 2};
         bubbleSort(arr);
 }
 
