@@ -14,7 +14,7 @@ public class BubbleSort {
 }
 
 public static void bubbleSort(int[] arr) {
-    Map <Integer, String> ddd = new HashMap <> ();
+    Map <Integer, String> ddd34 = new HashMap <> ();
         try {
             FileWriter fileWriter = new FileWriter("log.txt");
 
