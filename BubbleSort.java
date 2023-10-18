@@ -45,18 +45,18 @@ public static void bubbleSort(int[] arr) {
     }
 
     public static String arrayToString(int[] arr) {
-        StringBuilder sb1 = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
-        sb1.append("[");
+        sb.append("[");
         for (int i = 0; i < arr.length; i++) {
-            sb1.append(arr[i]);
+            sb.append(arr[i]);
 
             if (i != arr.length - 1) {
-                sb1.append(", ");
+                sb.append(", ");
             }
         }
-sb1.append("]");
+sb.append("]");
 
-        return sb1.toString();
+        return sb.toString();
     }
 }
